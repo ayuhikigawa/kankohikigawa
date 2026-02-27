@@ -1,0 +1,44 @@
+@charset "utf-8";
+
+/* マルチカラム関連 */
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+   
+}
+.main-area {
+    flex: basis 75%
+}
+
+.sub-area {
+    flex-basis: 25%
+}
+
+/* サイドバー内のスタイル */
+.sidebar {
+    
+    margin: 80px 0;
+    margin-left: 50px;
+
+
+
+.miraikan-title{
+    color: rgb(68, 138, 68);
+    margin-top: 100px;
+
+}
+
+.sidebar-title{
+    margin:50px 0px 30px 35px
+   
+     }
+.side-list-title {
+    font-size: 12px;
+    line-height: 1.6;
+    
+    /* 本文 */
+
+	p {
+	font-size: 14px;
+  line-height: 1.7;
+  margin: 0;

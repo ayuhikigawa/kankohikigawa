@@ -1,0 +1,105 @@
+@charset "utf-8";
+
+
+
+/* 逸品リード */
+.ituhin {
+     width: 95%;
+     margin: 0 auto;
+     margin-bottom: 50;
+}
+
+.ituhn-title {
+    float: right;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+/* 全体の設定 */
+body {
+	background-color: #ffe;
+	margin: 0;
+    
+/*マルチカラム関連 */
+.wrapper {
+	display: flex;
+	justify-content: space-around;
+}
+
+.main-area {
+	flex-basis: 70%;
+}
+.sub-area {
+	flex-basis: 20%;
+}
+
+/* サイドバー内のスタイル */
+.sidebar {
+	margin:40px 0;
+}
+
+.gradient {
+  border: none;
+  height: 4px;
+  background: linear-gradient(to right, transparent, #6c63ff, transparent);
+}
+
+
+h1, h2, h3 {
+  margin-top: 30px;
+}
+
+    
+h1 {
+    text-shadow: 5px 5px 6px #666b70;
+      
+	font-size: 16px;
+	line-height: 14px;
+	
+	margin: 20px 10px ;
+	margin-bottom: 15px;
+		}
+
+
+
+
+/* 本文 */
+
+	p {
+	font-size: 14px;
+  line-height: 1.7;
+  margin-top: 0;
+}
+
+
+
+/* 写真 */
+.photo {
+	overflow: auto;
+}
+
+.large-image {
+	float: left;
+    margin-right: 20px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+
+.ayu-image{
+    margin-top: 30px;
+
+}
+
+/* キャプション */
+.caption {
+	font-size: 12px;
+    margin-top: 0;
+}
+
+
+.caption {
+    font-size: 12px;
+     
+    
+    }
+[EOF]

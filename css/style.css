@@ -1,0 +1,173 @@
+@charset "utf-8";
+
+/*マルチカラム関連 */
+.wrapper {
+	display: flex;
+	justify-content: space-around;
+}
+
+.main-area {
+	flex-basis: 70%;
+}
+.sub-area {
+	flex-basis: 20%;
+}
+
+/* サイドバー内のスタイル */
+.sidebar {
+	margin:40px 0;
+}
+
+
+
+
+
+/* 全体の設定 */
+body {
+	background-color: #ffe;
+	margin: 0;
+}
+p{text-align: justify;
+}
+
+/* コンテナの幅は940px固定、空は左右均等 */
+.container {
+	max-width:940px;
+	margin: 0 auto;
+}
+
+/* 見出し */
+h1, h2, h3, h4, h5 {
+	front-family '遊ゴシック','メイリオ',sans-serif;
+	font-weight: normal ;
+	color:#222;
+	line-height: 1.1;
+}
+
+h1 {
+	font-size: 18px;
+	line-height: 20px;
+	
+	margin: 20px 10px ;
+	margin-bottom: 20;
+		}
+
+h2 {
+	font-size: 16px;
+	color: rgb(68, 138, 68);
+	line-height: 40px;
+	margin: 30px 10px 5px;
+}
+
+h3{
+	font-size: 14px;
+}	
+
+/* 見出し部分　＊・
+.lead {
+	color:silver;
+	
+
+/* 本文 */
+
+	p {
+	font-size: 14px;
+  line-height: 1.7;
+  margin: 0;
+}
+
+
+
+/* ページタイトル部分 */
+.lead {
+	max: width 945px;px;
+	color: gray;
+}
+
+/* グローバルメニュー */
+.global-nav {
+	font-size: 18px;
+	width: 940px;
+	background-color: #b19f9f;
+}
+.nav-list {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+.nav-item {
+	display: inline-block;
+	padding: 20px 15px;
+	color: #fff;
+}
+/* 写真 */
+.photo {
+	overflow: auto;
+}
+
+
+.large-image {
+	float: left;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+
+.clear {
+	clear:both;
+
+
+
+
+}
+
+/* キャプション */
+.caption {
+	font-size: 12px;
+}
+	
+
+
+<style>
+.map {
+  text-align: center;
+}
+</style>
+
+.nav-list {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+.nav-item {
+	display: inline-block;
+	padding: 20px 15px;
+	color: #fff;
+}
+
+
+
+/* ロゴ画像 */
+.logo-image {
+	vertical-align: bottom;
+
+
+}
+
+<style>
+.map {
+  text-align: center;
+}
+</style>
+
+
+/*　フッター　＊/
+footer {
+	text-align: center;
+	margin:40px 0 20px;
+}
+
+
+
+
+[EOF]

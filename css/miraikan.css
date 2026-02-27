@@ -1,0 +1,111 @@
+@charset "utf-8";
+
+/* 海来館 */
+.miraikan {
+	width: 95%;
+	margin: 0 auto;
+
+
+.photobox {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.photobox div {
+	flex-basis: 150px;
+	margin-bottom: 20px;
+	padding: 10px;
+	background-color: #fff;
+	border: 1px solid #ccc;
+	box-shadow: 1px 1px 2px #829797;
+
+}
+
+h1 {
+	font-size: 18px;
+	line-height: 20px;
+	
+	margin: 20px 10px ;
+	margin-bottom: 40px;
+		}
+
+h2 {
+	font-size: 16px;
+	color: rgb(68, 138, 68);
+	line-height: 40px;
+	margin: 30px 10px 5px;
+}
+
+.tennai1 {
+	display: right;
+}
+
+/* 見出し */
+h1, h2, h3, h4, h5 {
+	front-family '遊ゴシック','メイリオ',sans-serif;
+	font-weight: normal ;
+	color:#222;
+	line-height: 1.1;
+
+.gradient {
+  border: none;
+  height: 4px;
+  background: linear-gradient(to right, transparent, #6c63ff, transparent);
+
+/* 店内写真　*/
+.tennai-photo{
+  width: 95%;
+  margin: 0px auto;
+}
+.tennai1{
+	margin-top: 60px;
+	
+}
+
+/* おすすめ写真 */
+.photo {
+	overflow: auto;
+	margin-left: 10px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.terasu-photo {
+	overflow: auto;
+	margin-bottom: 50px;
+}
+
+.yasi-photo {
+	overflow: auto;
+	margin-bottom: 70px;
+}
+
+
+
+.btn-outline:active {
+  transform: translateY(0);
+}
+
+
+
+
+
+
+
+
+.tel {
+  width: 250px;
+  background: orange;
+  text-align: center;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 30px auto;
+}
+.a{
+  display:block;
+  text-decoration: none;
+}
+.a:hover{
+  opacity:0.6;
+}
